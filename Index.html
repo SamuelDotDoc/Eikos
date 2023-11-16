@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eikos</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <header>
+            <h1 id="titulo">Eikos</h1>
+            <nav>
+                <ul>
+                    <li><a href="">Calendar</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Notes</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown-menu">
+                <button class="dropdown-btn"><img class="img-button" src="https://imgs.search.brave.com/LYiqAC3aKbqjR--e403C7qeTG3at9wAT6RLb9mk86u4/rs:fit:256:256:1/g:ce/aHR0cHM6Ly93d3cu/aWNvbnNkYi5jb20v/aWNvbnMvcHJldmll/dy93aGl0ZS9jb2ct/eHhsLnBuZw" alt="settings button"></button>
+                <section id="dropdown-content" class="config">
+                    <a href="">Change color</a>
+                    <a href="">Quit</a>
+                </section>
+            </div>          
+        </header>
+
+        <div id="app">
+            <section id="eventos">
+            </section>
+
+            <div id="calendar">
+                <header class="calendar-header">
+                    <nav>
+                        <div class="dropdown-menu">
+                            <button class="calendar-menu-btn">Change Month</button>
+                            <section id="dropdown-content" class="months">
+                                <a href="">January</a>
+                                <a href="">February</a>
+                                <a href="">March</a>
+                                <a href="">April</a>
+                                <a href="">May</a>
+                                <a href="">June</a>
+                                <a href="">July</a>
+                                <a href="">August</a>
+                                <a href="">September</a>
+                                <a href="">October</a>
+                                <a href="">November</a>
+                                <a href="">December</a>
+                            </section>
+                        </div>
+                        <div class="dropdown-menu">
+                            <button class="calendar-menu-btn">Change View</button>
+                            <section id="dropdown-content" class="months">
+                                <a href="">Day</a>
+                                <a href="">Week</a>
+                                <a href="">Month</a>
+                            </section>
+                        </div>
+                        <button class="calendar-menu-btn">Add event</button>
+                    </nav>
+                </header>
+                <section class="calendar-view">
+                    <div id="calendar-month"></div>
+                </section>
+            </div>
+        </div>
+    </body>
+<script type="module" src="calendar.js"></script>
+</html>

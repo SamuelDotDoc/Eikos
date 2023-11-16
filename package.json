@@ -1,0 +1,14 @@
+{
+  "name": "eikos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel S. C. Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.5"
+  }
+}
